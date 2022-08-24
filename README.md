@@ -1,6 +1,7 @@
 # PsHoneyPort
 PowerShell script to listen on TCP ports and log to Event Log when connections are made.
 
+```
 .SYNOPSIS
     Listen on TCP ports and log event logs when a connection is made.
 
@@ -54,3 +55,4 @@ PowerShell script to listen on TCP ports and log to Event Log when connections a
     Unregister the Event Source from Event Logs if not used anymore.
 
         PS C:\> .\PsHoneyPort.ps1 -Unregister
+```
